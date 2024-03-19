@@ -1,0 +1,107 @@
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-blanco:#ffffff;
+	--gris-box:#161616;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+/*Intro section*/
+#intro{
+	color: var(--color-blanco);	
+	padding: 20px 0px;
+	
+}
+.box{
+	background-color: var(--gris-box);
+	color: var(--color-blanco);	
+	padding: 10px 0px;
+	
+	
+}
+#intro h3{
+	font-size: 20px;
+}
+#intro h2{
+	font-size: 25px;
+}
+#intro h1{
+	font-weight:700px;
+	
+}
+
+#intro {
+	color: #FFA948 !important;
+}
+
+#intro p{
+	font-size: 16px;
+	
+	text-align: left;	
+}
+
+#intro img {
+  filter: gray; 
+  filter: grayscale(1);
+  margin-bottom: -10px;
+  margin-right: 30px;
+}
+
+.btn-normal{
+	background-color: var(--color-rojo);
+	color: var(--color-blanco);
+	padding: 10px 20px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: 15;
+	border-radius: 0px;
+}
+/*font*/
+
+
+.catamaran-font {
+  font-family: "Catamaran", sans-serif;
+	
+}
+/*cta section*/
+#cta{
+	filter: var(--color-rojo);
+	background-color: var(--color-rojo);
+	padding: 100px 0px;
+	color: var(--color-blanco);
+	margin: 0px -30px
+}
+
+.btn-cta{
+	background-color: transparent;
+	color: var(--color-blanco);
+	border-color: var(--color-blanco);
+	border-width: 5px;
+	padding: 0px 12px;
+	
+	font-size: 20px;
+	font-weight: 400px;
+	border-radius: 0px;
+}
